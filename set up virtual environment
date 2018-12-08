@@ -1,0 +1,10 @@
+pip install virtualenv # install virtualenv
+#download the desired python version, for example, python 3.6.0;
+#install python 3.6.0 in a local folder and note down the path: C:\Users\acer\Documents\python\env\python-3.6.7\python.exe
+virtualenv -p python=C:\Users\acer\Documents\python\env\python-3.6.7\python.exe myvirtualev # path links to the exe file of python,
+#myvirtualev is the name of the virtual environment
+"C:\Users\acer\Documents\python\env\myenvpy36\Scripts\activate.bat" #type this command to activate the virtual en
+deactivate myvirtualev # to deactivate
+pip install spyder # to install spyder in myvirtualev
+to activate spyder in myvirtualev, find the exe in myenvpy36\Scripts\
+go ahead to install all packages
